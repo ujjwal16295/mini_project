@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FireActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/fireimg"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What To do:-"
+            android:padding="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="1. In case of fire: DON'T HIDE, GO OUTSIDE! Fires are scary, but you should NEVER hide in closets or under beds when there is a fire."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="2. To escape during a fire; Fall and Crawl. It is easier to breath in a fire if you stay low while getting out. Use the back of your hand to test if a door is hot before you open it. If it is hot, try to use another way out."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="3. If your clothes are on fire; Stop, Drop, and Roll until the fire is out. Shout for help, but don't run. Running makes fire burn faster."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="4. Have an escape plan and practice it with your family. Find two ways out of every room in case one way is blocked by fire or smoke"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="help"
+            android:layout_margin="16dp"
+            android:onClick="OpenSubmitForm"/>
+    </LinearLayout>
+</ScrollView>
